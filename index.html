@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url=smartexpense://open" />
+  <script>
+    // Get query params from URL
+    const params = new URLSearchParams(window.location.search);
+
+    // Build custom scheme deep link
+    let deeplink = "smartexpense://open";
+
+    if (params.toString().length > 0) {
+      deeplink += "?" + params.toString();
+    }
+
+    // Redirect to app
+    window.location.href = deeplink;
+  </script>
 </head>
 <body>
   <p>Opening App...</p>
