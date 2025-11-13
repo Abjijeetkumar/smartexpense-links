@@ -1,0 +1,12 @@
+[
+{
+"relation": ["delegate_permission/common.handle_all_urls"],
+"target": {
+"namespace": "android_app",
+"package_name": "com.cashcraft.moneytracker",
+"sha256_cert_fingerprints": [
+"87:f7:85:c4:b9:b5:54:13:b0:f7:4c:44:df:4a:d9:88:07:fd:88:0e:2b:4a:4c:00:77:9f:48:9f:19:6b:4a:b8"
+]
+}
+}
+]
